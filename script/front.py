@@ -47,17 +47,17 @@ import back  # Importing the main module with the OOP script
 # Some examples of models are presented here:
 
 # Simple Linear Regression,LSM
-model = back.LeastSquaredMethod(path = "/Users/javierdominguezsegura/Programming/Python/Drafts/Scikit/Linear regression/Andrew ng/Multiple linear regression/datasets/diabetes_dataset.csv",
+model = back.LeastSquaredMethod(path = "/Users/.../diabetes_dataset.csv",
                                  names = ["bmi","target"], drop="target") # This dataste is the a modified version of scikitlearn's diabetes dataset
 print(model.get_all()) 
 
 # Multivariate Linear Regression ,LSM
-model2 = back.LeastSquaredMethod(path="/Users/javierdominguezsegura/Programming/Python/Drafts/Scikit/Linear regression/Andrew ng/Multiple linear regression/datasets/houses_oregon.csv", 
+model2 = back.LeastSquaredMethod(path="/Users/.../houses_oregon.csv", 
                            names=["Size","Bedrooms", "Price"],drop= "Price")
 print(model2.get_alpha_plot()) 
 
 # Simple Linear Regression, Normal Equations 
-model3 = back.NormalEquation(path="/Users/javierdominguezsegura/Programming/Python/Drafts/Scikit/Linear regression/Andrew ng/Multiple linear regression/datasets/restaurants.csv", 
+model3 = back.NormalEquation(path="/Users/.../restaurants.csv", 
                            names=["Population","Price"], drop="Price")
 
 print(model3.get_stats()) 
