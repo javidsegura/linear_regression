@@ -21,7 +21,7 @@ spreadsheet software and results are consistent. [1] </p>
     <ul>
     <li> path= directory to csv </li>
      <li> names = pass an array with the names of all the headers (both features and targets) </li>
-    <li> drop = pass a string with the name of the target (have to be in prior names' array)  </li>   
+    <li> drop = pass a string with the name of the target (have to be contained in prior names' array)  </li>   
     </ul>
 <li> Call a method </li>
     </ol>
