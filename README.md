@@ -33,5 +33,5 @@ spreadsheet software and results are consistent)[1] </p>
 <p> Image shows how the results from the script are consistent with that from spreadsheets </p>
 
 <hr>
-<p> Footnote: this is my first machine-learning program! 
-JDS, 03/11/2024 </p>
+<p> Footnote: this is my first machine-learning program! </p>
+<p> <i> JDS, 03/11/2024 </i></p>
