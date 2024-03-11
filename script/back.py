@@ -132,12 +132,12 @@ class Linear_regression: # Superclass with methods for trained models
                    title = "LeastSquaredMethod"
             elif isinstance(self, NormalEquation):
                    title = "NormalEquation"
-            with open(f"/Users/javierdominguezsegura/Programming/Python/Drafts/Scikit/Linear regression/Andrew ng/Multiple linear regression/results/results_{title}.csv", "w") as file:
+            with open(f"/Users/.../results/results_{title}.csv", "w") as file:
                   writer = csv.writer(file, delimiter= ",")
                   theta_header = [f"θ_{i}" for i in range(len(self.theta))] 
                   headers = theta_header + [i for i in self.names] 
                   writer.writerow(headers)
-            with open(f"/Users/javierdominguezsegura/Programming/Python/Drafts/Scikit/Linear regression/Andrew ng/Multiple linear regression/results/results_{title}.csv", "a") as file:
+            with open(f"/Users/.../results_{title}.csv", "a") as file:
                   writer = csv.writer(file, delimiter= ",")
                   theta_row = [f"{i:.2f}" for i in self.theta]
                   if len(self.theta) == 2: # Simple linear regression
@@ -173,7 +173,7 @@ class Linear_regression: # Superclass with methods for trained models
                    title = "LeastSquaredMethod"
             elif isinstance(self, NormalEquation):
                    title = "NormalEquation"
-            with open(f"/Users/javierdominguezsegura/Programming/Python/Drafts/Scikit/Linear regression/Andrew ng/Multiple linear regression/results/results_{title}.txt","w") as file:
+            with open(f"/Users/.../results_{title}.txt","w") as file:
                   file.write("RESULTS OF LINEAR REGRESSION ANALYSIS \n")
                   file.write("-"*60)
                   file.write(f"\n\nFeatures: {self.names[:-1]}, drop: {self.names[-1:]}") 
