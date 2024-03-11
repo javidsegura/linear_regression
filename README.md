@@ -1,6 +1,7 @@
 # LINEAR REGRESSION ANALYSIS 
 
-<p> <b> QUICK DESCRIPTION: </b>  Introduce any dataset and get linear regression analysis, this includes plotting, optimized parameters, R^2 value, and function for predictions among other features. Few functions are hardcoded; changing the dataset, should not affect the functionality of this code. (I have checked these values in
+
+<p> <b> QUICK DESCRIPTION : </b>  Introduce any dataset and get linear regression analysis, this includes plotting, optimized parameters, R^2 value, and function for predictions among other features. Few functions are hardcoded; changing the dataset, should not affect the functionality of this code. (I have checked these values in
 spreadsheet software and results are consistent)[1] </p>
 
 <p> <b> LIMITATIONS: </b>
