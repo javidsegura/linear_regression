@@ -23,7 +23,7 @@ spreadsheet software and results are consistent. [1] </p>
      <li> names = pass an array with the names of all the headers (both features and targets) </li>
     <li> drop = pass a string with the name of the target (have to be contained in prior names' array)  </li>   
     </ul>
-<li> Call a method </li>
+<li> Call any method </li>
     </ol>
 <p> <i> There is a complete explanation of all the methods at "front.py", starting in line 22 </i></p>
 
