@@ -1,5 +1,9 @@
 # LINEAR REGRESSION ANALYSIS 
 
+<img src="https://lh3.googleusercontent.com/drive-viewer/AKGpihYt0HfmFcoMSvHtqkSnDRPNLFL_ajuPCR3WFClTwTVvRGCiaZ8oBjp-ttcRT4l6rVsCVFdGBvlEoF53dOdW4cS4VvPRzQ=s1600" width = "400", height "500" /> 
+ <img src="https://lh3.googleusercontent.com/drive-viewer/AKGpihbEkddvBoCgCt6TuF7hhMteuzHQozb_4epmoMq2zHfBSykBuXRUTSVqy6SIZuCOg4dodN8l-m_JUB5xL4TJn7I8xxpLQg=s1600" width = "500", height "600" /> 
+<hr> 
+
 <h4> QUICK DESCRIPTION : </h4> 
 <p> Introduce any dataset and get linear regression analysis, this includes plotting, optimized parameters, R^2 value, and function for predictions among other features. Few functions are hardcoded; changing the dataset, should not affect the functionality of this code. (I have checked these values in
 spreadsheet software and results are consistent)[1] </p>
