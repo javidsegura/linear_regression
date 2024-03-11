@@ -15,8 +15,7 @@ spreadsheet software and results are consistent. [1] </p>
     <li>  Running optimization has not been taken into account </li>
     </ol>
 
-<h4> PROCEDURE: </h4>
-    <ol> 
+<h4> PROCEDURE: </h4><ol> 
 <li>  Get a dataset stored (either in .csv or .txt) </li>
  <li> Go to "front.py" </li>
 <li> Call the model with parameters: </li>
