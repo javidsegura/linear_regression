@@ -6,7 +6,7 @@
  
 
 <h4> QUICK DESCRIPTION : </h4> 
-<p> Introduce any dataset and get linear regression analysis. This includes plotting, optimized parameters, R^2 value, and function for predictions among other features. No "harcoded" approach, changing the dataset should not affect the accuracy of the results. I have compare the results with 
+<p> Introduce any dataset and get linear regression analysis. This includes plotting, optimized parameters, R^2 value, and function for predictions among other features. No "hardcoded" approach, changing the dataset should not affect the accuracy of the results. I have compared the results with 
 spreadsheet software and the results are consistent. [1] </p>
 
 <h4> LIMITATIONS: </h4><ol> 
