@@ -7,14 +7,13 @@
 <p> Introduce any dataset and get linear regression analysis, this includes plotting, optimized parameters, R^2 value, and function for predictions among other features. Few functions are hardcoded; changing the dataset, should not affect the functionality of this code. (I have checked these values in
 spreadsheet software and results are consistent)[1] </p>
 
-<h4> LIMITATIONS: </h4>
-    <ol> 
+<h4> LIMITATIONS: </h4><ol> 
     <li>  Models may fail to be plotted correctly if >3 features </li>
     <li>  All datasets have to be locally stored, using scikitlearn's module will not work </li>
     <li>  Running optimization has not been taken into account </li>
     </ol>
 
-<h4> PROCEDURE </h4>:
+<h4> PROCEDURE: </h4>
     <ol> 
 <li>  Get a dataset stored (either in .csv or .txt) </li>
 <li> Call the model with parameters: </li>
