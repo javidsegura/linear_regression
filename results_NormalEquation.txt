@@ -1,0 +1,9 @@
+RESULTS OF LINEAR REGRESSION ANALYSIS 
+------------------------------------------------------------
+
+Features: ['Population'], drop: ['Price']
+Prediction results have been locally stored in a csv file
+R^2 value is 0.70
+
+Optimal parameters are [-3.89578088  1.19303364], with a cost of 4.476971375975179Hypothesis is h(x) = -3.90 + 1.19x_1
+------------------------------------------------------------
