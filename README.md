@@ -6,8 +6,8 @@
  
 
 <h4> QUICK DESCRIPTION : </h4> 
-<p> Introduce any dataset and get linear regression analysis, this includes plotting, optimized parameters, R^2 value, and function for predictions among other features. Few functions are hardcoded; changing the dataset, should not affect the functionality of this code. I have checked these values in
-spreadsheet software and results are consistent. [1] </p>
+<p> Introduce any dataset and get linear regression analysis. This includes plotting, optimized parameters, R^2 value, and function for predictions among other features. No "harcoded" approach, changing the dataset should not affect the accuracy of the results. I have compare the results with 
+spreadsheet software and the results are consistent. [1] </p>
 
 <h4> LIMITATIONS: </h4><ol> 
     <li>  Models may fail to be plotted correctly if >3 features </li>
