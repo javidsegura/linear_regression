@@ -1,9 +1,43 @@
-RESULTS OF LINEAR REGRESSION ANALYSIS 
-------------------------------------------------------------
 
-Features: ['Population'], drop: ['Price']
-Prediction results have been locally stored in a csv file
-R^2 value is 0.70
+RESULTS OF LINEAR REGRESSION ANALYSIS (MANUALLY CODED) 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 
-Optimal parameters are [-3.89578088  1.19303364], with a cost of 4.476971375975179Hypothesis is h(x) = -3.90 + 1.19x_1
-------------------------------------------------------------
+0) Algorithm: NormalEquation
+
+1) Features: ['Population'], Target: ['Price'] 
+
+2) Hypothesis is h(x) = -3.90 + 1.19x_1
+
+3) Optimal parameters are [-3.89578088  1.19303364], with a cost of 4.476971375975179
+
+4) R^2 value is 0.70, SER is 3.04, p-value is [4.60788665e-07 1.02320998e-26]
+
+5) Prediction results have been locally stored in a csv file
+
+
+CHECK RESULTS WITH STATSMODELS'S API (AUTOMATICALLY CODED): 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -                             OLS Regression Results                            
+==============================================================================
+Dep. Variable:                      y   R-squared:                       0.702
+Model:                            OLS   Adj. R-squared:                  0.699
+Method:                 Least Squares   F-statistic:                     223.8
+Date:                Tue, 12 Mar 2024   Prob (F-statistic):           1.02e-26
+Time:                        18:18:50   Log-Likelihood:                -243.95
+No. Observations:                  97   AIC:                             491.9
+Df Residuals:                      95   BIC:                             497.1
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         -3.8958      0.719     -5.415      0.000      -5.324      -2.467
+x1             1.1930      0.080     14.961      0.000       1.035       1.351
+==============================================================================
+Omnibus:                       39.986   Durbin-Watson:                   1.917
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              108.142
+Skew:                           1.455   Prob(JB):                     3.29e-24
+Kurtosis:                       7.276   Cond. No.                         21.4
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
