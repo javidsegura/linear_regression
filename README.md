@@ -6,13 +6,16 @@
  
 
 <h4> QUICK DESCRIPTION : </h4> 
-<p> Introduce any dataset and get linear regression analysis. This includes plotting, optimized parameters, R^2 value, and function for predictions among other features. No "hardcoded" approach, changing the dataset should not affect the accuracy of the results. I have compared the results with 
-spreadsheet software and the results are consistent. [1] </p>
+<p> Introduce any dataset and get inmediate linear regression analysis, this includes
+plotting, optimized parameters, R^2 value and function for predictions among other features.
+Script proved to be functional (independently of the dataset) due to the consistency of results, 
+after comparing the results via statsmodel.api (they are showcased in the .txt with the results
+when calling 'get_all()' ). They have also been compared with Google spreadsheets, for even 
+ more confidence in these conclusions. [1] </p>
 
 <h4> LIMITATIONS: </h4><ol> 
     <li>  Models may fail to be plotted correctly if >3 features </li>
     <li>  All datasets have to be locally stored, using scikitlearn's module will not work </li>
-    <li>  Running optimization has not been taken into account </li>
     </ol>
 
 <h4> PROCEDURE: </h4><ol> <li>  Get a dataset stored (either in .csv or .txt) </li>
@@ -28,10 +31,11 @@ spreadsheet software and the results are consistent. [1] </p>
 <p> <i> There is a complete explanation of all the methods at "front.py", starting in line 22 </i></p>
 
 <hr>
-[1] Validation of the script is explained here: 
+[1] Validation of the script is shown here: 
 <img src="https://lh3.googleusercontent.com/drive-viewer/AKGpihYt0HfmFcoMSvHtqkSnDRPNLFL_ajuPCR3WFClTwTVvRGCiaZ8oBjp-ttcRT4l6rVsCVFdGBvlEoF53dOdW4cS4VvPRzQ=s1600" width = "400", height "500" /> 
 
-<p> Image shows how the results from the script are consistent with that from spreadsheet software.</p>
+<p> Image shows how the results from the script are consistent with that from spreadsheet software. You can also refer to the results in .txt output file when calling 
+the get_all() method. </p>
 
 <hr>
 <p> Footnote: this is my first machine-learning program! </p>
