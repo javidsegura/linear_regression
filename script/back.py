@@ -226,7 +226,7 @@ class Linear_regression: # Superclass with methods for trained models
                    title = "LeastSquaredMethod"
             elif isinstance(self, NormalEquation):
                    title = "NormalEquation"
-            with open(f"/Users/javierdominguezsegura/Programming/Python/Drafts/Scikit/Linear regression/Andrew ng/Multiple linear regression/results/results_{title}.txt","w") as file:
+            with open(f"/Users.../results_{title}.txt","w") as file:
                   file.write("\nRESULTS OF LINEAR REGRESSION ANALYSIS (MANUALLY CODED) \n")
                   file.write("- "*60)
                   file.write(f"\n\n0) Algorithm: {title}\n")
