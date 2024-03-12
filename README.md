@@ -17,6 +17,11 @@ when calling 'get_all()' ). They have also been compared with Google spreadsheet
     <li>  Models may fail to be plotted correctly if >3 features </li>
     <li>  All datasets have to be locally stored, using scikitlearn's module will not work </li>
     </ol>
+    
+<h4> DYNAMIC USE: </h4><ol> 
+    <li>  Select if you want to split the dataset with train/test, and if so how much (percentage) </li>
+    <li>  Select between two algorithms: LSM or Normal Equations </li>
+    </ol>
 
 <h4> PROCEDURE: </h4><ol> <li>  Get a dataset stored (either in .csv or .txt) </li>
  <li> Go to "front.py" </li>
