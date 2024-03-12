@@ -1,6 +1,8 @@
 # LINEAR REGRESSION ANALYSIS 
 <hr>
-<img src="https://lh3.googleusercontent.com/drive-viewer/AKGpihbEkddvBoCgCt6TuF7hhMteuzHQozb_4epmoMq2zHfBSykBuXRUTSVqy6SIZuCOg4dodN8l-m_JUB5xL4TJn7I8xxpLQg=s1600" width = "500", height "600"/> 
+<img src="https://lh3.googleusercontent.com/drive-viewer/AKGpihbEkddvBoCgCt6TuF7hhMteuzHQozb_4epmoMq2zHfBSykBuXRUTSVqy6SIZuCOg4dodN8l-m_JUB5xL4TJn7I8xxpLQg=s1600" width = "500", height = "600"/> 
+
+<img src="https://lh3.googleusercontent.com/drive-viewer/AKGpihaxzyZw4QmmEZU3w2aKtZJ-q4rL_qyoJmbMll7Vgyglfjoi4WUOVP-I3lgkPbOv1l-rJt0Twju_sHbMxH208sBF4ppk=s1600" width = "500", height = "600"/> </a>
 
 
  
