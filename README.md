@@ -6,12 +6,12 @@
  
 
 <h4> QUICK DESCRIPTION : </h4> 
-<p> Introduce any dataset and get inmediate linear regression analysis, this includes
-plotting, optimized parameters, R^2 value and function for predictions among other features.
-Script proved to be functional (independently of the dataset) due to the consistency of results, 
-after comparing the results via statsmodel.api (they are showcased in the .txt with the results
+<p> Introduce any dataset and get immediate linear regression analysis. This includes
+plotting, optimizing parameters, R^2 value and predictions among other features.
+Script proved to be functional (independently of the dataset introduced) due to the consistency of results 
+after comparing the results via statsmodel.api (this is showcased in the .txt with the results
 when calling 'get_all()' ). They have also been compared with Google spreadsheets, for even 
- more confidence in these conclusions. [1] </p>
+ more confidence in the prior conclusions. [1] </p>
 
 <h4> LIMITATIONS: </h4><ol> 
     <li>  Models may fail to be plotted correctly if >3 features </li>
