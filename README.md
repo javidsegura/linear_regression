@@ -1,7 +1,6 @@
 # LINEAR REGRESSION ANALYSIS 
 <hr>
-<img width="1444" alt="image (6) (1)" src="https://github.com/javidsegura/linear_regression/assets/129964070/c8ffb2bc-4747-422d-9246-b6cc6861c211">
-
+<img width="1104" alt="image (9) (1)" src="https://github.com/javidsegura/linear_regression/assets/129964070/000178fd-0527-4c91-a619-dd7f8c73cb46">
 
  
 
@@ -37,7 +36,8 @@ when calling 'get_all()' ). They have also been compared with Google spreadsheet
 
 <hr>
 [1] Validation of the script is shown here: 
-<img width="1104" alt="image (9) (1)" src="https://github.com/javidsegura/linear_regression/assets/129964070/000178fd-0527-4c91-a619-dd7f8c73cb46">
+<img width="500" alt="image (6) (1)" src="https://github.com/javidsegura/linear_regression/assets/129964070/c8ffb2bc-4747-422d-9246-b6cc6861c211">
+
 
 
 <p> Image shows how the results from the script are consistent with that from spreadsheet software. You can also refer to the results in .txt output file when calling 
